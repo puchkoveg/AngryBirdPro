@@ -1,0 +1,18 @@
+﻿<Window x:Class="AngryBirdsPro.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Angry Birds Simplified" Height="600" Width="1200">
+    <Canvas Name="gameCanvas">
+        <Canvas.Background>
+            <ImageBrush ImageSource="https://kappa.lol/ltoYd"/>
+        </Canvas.Background>
+        <Image Name="pig" Width="79" Height="70" Source ="https://kappa.lol/YJJ8n" Stretch ="Fill" Canvas.Left="600" Canvas.Top="320" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Image Name="slingshot" Width ="60" Height="80"  Source ="https://kappa.lol/rsB9T" Stretch ="Fill" Canvas.Left="83" Canvas.Top="326"/>
+        <Image  Width ="132" Height="116"  Source ="https://kappa.lol/tolZR" Stretch ="Fill" Canvas.Left="20" Canvas.Top="391"/>
+        <Image x:Name="bird" Width="70" Height="60" Source ="https://kappa.lol/Jvd1C" Stretch ="Fill" Canvas.Left="100" Canvas.Top="300" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Image  Name ="barn" Width ="132" Height="116"  Source ="https://kappa.lol/4C2ks" Stretch ="Fill" Canvas.Left="574" Canvas.Top="390"/>
+        <Image  Name="grass1" Width ="443" Height="59"  Source ="https://kappa.lol/OGa1g" Stretch ="Fill" Canvas.Left="157" Canvas.Top="449" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Image  x:Name="grass2" Width ="515" Height="59"  Source ="https://kappa.lol/OGa1g" Stretch ="Fill" Canvas.Left="685" Canvas.Top="447" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <Image  Name="sun" Width ="124" Height="119"  Source ="https://kappa.lol/h1Rut" Stretch ="Fill" Canvas.Left="326" Canvas.Top="300" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+    </Canvas>
+</Window>
